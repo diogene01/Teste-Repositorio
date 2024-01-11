@@ -1,0 +1,56 @@
+body{
+    background-image: url(img/Cena-Jogo.jpg);
+    background-repeat: no-repeat;
+}
+
+.mosquito1{
+    width: 180px;
+    height: 180px;
+}
+
+.mosquito2{
+    width: 130px;
+    height: 130px;
+}
+
+.mosquito3{
+    width: 100px;
+    height: 100px;
+}
+
+.ladoA{
+    transform: scaleX(1);
+}
+
+.ladoB{
+    transform: scaleX(-1);
+}
+
+.painel {
+    position: absolute;
+    width: 190px;
+    padding: 10px;
+    left: 0px;
+    bottom: 0px;
+    border-top: solid 1px #fff;
+    background-color: #fff;
+    opacity: 0.7;
+}
+
+.vidas{
+    float: left;
+}
+
+.cronometro{
+    font-size: 20px;
+    font-weight: bold;
+    float: left;
+}
+
+.coracoes{
+    width: 50px;
+}
+
+.perdeu{
+    width: 800px;
+}
